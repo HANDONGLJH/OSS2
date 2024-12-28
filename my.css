@@ -1,0 +1,43 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fff5e1;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1.anime-title {
+  color: #ff6347;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px #ffe4b5;
+  border-bottom: 5px solid #ffa07a;
+  padding-bottom: 10px;
+}
+
+.table.anime-table {
+  background-color: #fffaf0;
+  border-radius: 10px;
+  border: 2px solid #ffa07a;
+}
+
+.table thead {
+  background-color: #ffebcd;
+}
+
+.table tbody tr:hover {
+  background-color: #ffe4b5;
+}
+
+button {
+  background-color: #ff6347;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff4500;
+}

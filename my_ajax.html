@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJAX Book Management</title>
+  <link rel="stylesheet" href="my.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="my-4 text-center anime-title">AJAX Book Management</h1>
+    <div class="mb-4 text-center">
+      <button id="getData" class="btn btn-primary">View Books</button>
+      <button id="addDataForm" class="btn btn-success">Add Book</button>
+      <button id="updateDataForm" class="btn btn-warning">Update Book</button>
+      <button id="deleteData" class="btn btn-danger">Delete Book</button>
+    </div>
+
+    <div id="message" class="alert d-none" role="alert"></div>
+
+    <form id="bookForm" class="d-none mb-4">
+      <input type="hidden" id="bookId">
+      <div class="mb-3">
+        <label for="bookTitle" class="form-label">Title</label>
+        <input type="text" class="form-control" id="bookTitle" required>
+      </div>
+      <div class="mb-3">
+        <label for="bookAuthor" class="form-label">Author</label>
+        <input type="text" class="form-control" id="bookAuthor" required>
+      </div>
+      <div class="mb-3">
+        <label for="bookYear" class="form-label">Year</label>
+        <input type="number" class="form-control" id="bookYear" required>
+      </div>
+      <div class="mb-3">
+        <label for="bookPublisher" class="form-label">Publisher</label>
+        <input type="text" class="form-control" id="bookPublisher" required>
+      </div>
+      <div class="mb-3">
+        <label for="bookEpisode" class="form-label">Episodes</label>
+        <input type="number" class="form-control" id="bookEpisode" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Save</button>
+      <button type="button" class="btn btn-secondary" id="cancelForm">Cancel</button>
+    </form>
+
+    <div id="output" class="list-group"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

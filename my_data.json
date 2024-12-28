@@ -1,0 +1,84 @@
+{
+  "books": [
+    {
+      "title": "원피스",
+      "author": "오다 에이치로",
+      "year": 1994,
+      "publisher": "슈에이샤",
+      "episode": 1000,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "나루토",
+      "author": "키시모토 마사시",
+      "publisher": "슈에이샤",
+      "year": 1999,
+      "episode": 720
+    },
+    {
+      "id": "3",
+      "title": "드래곤볼",
+      "author": "토리야마 아키라",
+      "publisher": "슈에이샤",
+      "year": 1984,
+      "episode": 291
+    },
+    {
+      "id": "4",
+      "title": "헌터X헌터",
+      "author": "토가시 요시히로",
+      "publisher": "슈에이샤",
+      "year": 1998,
+      "episode": 148
+    },
+    {
+      "id": "5",
+      "title": "블리치",
+      "author": "쿠보 타이토",
+      "publisher": "슈에이샤",
+      "year": 2001,
+      "episode": 366
+    },
+    {
+      "id": "6",
+      "title": "데스노트",
+      "author": "오바 츠구미",
+      "publisher": "슈에이샤",
+      "year": 2003,
+      "episode": 37
+    },
+    {
+      "id": "7",
+      "title": "베르세르크",
+      "author": "미우라 켄타로",
+      "publisher": "하쿠센샤",
+      "year": 1990,
+      "episode": 0
+    },
+    {
+      "id": "8",
+      "title": "슬램덩크",
+      "author": "이노우에 타케히코",
+      "publisher": "슈에이샤",
+      "year": 1990,
+      "episode": 101
+    },
+    {
+      "id": "9",
+      "title": "유유백서",
+      "author": "토가시 요시히로",
+      "publisher": "슈에이샤",
+      "year": 1990,
+      "episode": 112
+    },
+    {
+      "id": "10",
+      "title": "소울이터",
+      "author": "오쿠보 아츠시",
+      "publisher": "스퀘어 에닉스",
+      "year": 2004,
+      "episode": 51
+    }
+  ]
+}
